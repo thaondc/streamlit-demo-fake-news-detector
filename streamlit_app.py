@@ -17,7 +17,7 @@ def main():
         layout="wide",
         initial_sidebar_state="expanded"
     )
-    st.title(":newspaper: English fake news detector")
+    st.title(":newspaper: fake news detector")
     sess = load_session()
 
     #model_names = ["Passive Aggressive Classifier", "Logistic Regression"]
